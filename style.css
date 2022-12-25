@@ -52,6 +52,8 @@ h4 {
     
     left: 2rem;
     position: absolute;
+    display: none;
+
 
     border-radius: 6rem;
 

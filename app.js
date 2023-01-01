@@ -19,7 +19,7 @@ function appearObject() {
     
     start = Date.now();
     
-    document.getElementById("object").style.color = rep1 ;
+    document.getElementById("object").style.backgroundColor = colors[colorRandom] ;
     document.getElementById("object").style.left = rep1 ;
     document.getElementById("object").style.top = rip1 ;
     document.getElementById("object").style.display = "block";

@@ -39,15 +39,15 @@ h4 {
 
 
 .container {
-    width: 25rem;
-    height: 25rem;
+    width: 40rem;
+    height: 40rem;
 
     background-color: aqua;
     position: fixed;
 
 
-    left: 15rem;
-    top: 10rem;
+    left: 25rem;
+    top: 5rem;
 
 }
 

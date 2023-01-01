@@ -1,8 +1,7 @@
 "use strict"
 
-//setTimeout(appearObject, +(1000 * Math.round((Math.random()*(8-3)+3)*100)/100));
 
-window.onload = setTimeout(appearObject, +(1000 * Math.round((Math.random()*(8-3)+3)*100)/100));
+window.onload = setTimeout(appearObject, +(1000 * Math.round((Math.random()*(10-5)+5)*100)/100));
 
 
 function appearObject() {
@@ -23,7 +22,9 @@ function disappear() {
     
     document.getElementById("object").style.display = "none";
     let end = Date.now();
-    let clickedTime = (start-end)/1000;
+    let clickedTime = (start - end)/1000;
+    alert(clickedTime);
     document.getElementById("reaction").innerHTML = "Your reaction time is " + clickedTime; 
+    setTimeout(appearObject, +(1000 * Math.round((Math.random()*(10-5)+5)*100)/100));
 
 }
